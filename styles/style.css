@@ -253,3 +253,10 @@ body {
     }
 
 }
+
+ .linkedin  {
+    max-width:32px;
+    max-height:32px;
+    width: auto;
+    height: auto;
+}
