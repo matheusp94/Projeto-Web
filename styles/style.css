@@ -124,6 +124,8 @@ body {
 .dropdown__links {
     display: none;
     position: absolute;
+    font-family: var(--fonte-secundaria);
+    font-size: 12px;
     background-color: var(--cor-quartenaria);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
