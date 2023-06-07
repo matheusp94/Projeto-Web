@@ -42,6 +42,16 @@ body {
 .cabecalho {
     padding: 0%;
     background-color: var(--cor-terciaria);
+
+}
+
+.cabecalho__marca {
+    color: var(--cor-primaria);
+    display: inline-block;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* elementos do cabeçalho */
@@ -92,6 +102,7 @@ body {
     /* o problema do layout pode estar aqui */
     display: flex;
     justify-content: center;
+    min-height: 100%;
 }
 
 .apresentacao__conteudo {
