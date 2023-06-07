@@ -98,7 +98,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 16px;
+    font-size: 12px;
     font-family: var(--fonte-secundaria);
     text-align: justify;
     max-width: 1024px;
@@ -216,7 +216,11 @@ body {
 }
 
 /* Estilos específicos para tablets */
-@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .apresentacao__conteudo__texto {
+        font-size: 16px;
+    }
+}
 
 
 /* Estilos específicos para desktop */
@@ -226,7 +230,7 @@ body {
         position: fixed;
         right: 0px;
         bottom: 0px;
-        max-height: 600px;
+        max-height: 300px;
     }
 
     .img__conteudo {
@@ -242,6 +246,10 @@ body {
         border: 1px solid var(--cor-secundaria) opacity 0.3;
         ;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 16px;
     }
 
 }
