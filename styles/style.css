@@ -44,6 +44,11 @@ body {
 
 }
 
+.img__git {
+    max-width: 16px;
+
+}
+
 /* construtor cabeçalho */
 .cabecalho {
     padding: 0%;
