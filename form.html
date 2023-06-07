@@ -34,37 +34,99 @@
                     futuro.
                 </strong></h1>
             <form>
-                <label for="campo1">Campo 1:</label>
-                <input type="text" id="campo1" name="campo1" required><br>
+                <fieldset>
+                    <legend>Detalhes pessoais</legend>
 
-                <label for="campo2">Campo 2:</label>
-                <input type="text" id="campo2" name="campo2" required><br>
+                    <p>
+                        <label>
+                            Saudação
+                            <br />
+                            <select name="saudação">
+                                <option>--NA--</option>
+                                <option>Senhor.</option>
+                                <option>Senhora.</option>
+                                <option>Doutor.</option>
+                                <option>Professor.</option>
+                            </select>
+                        </label>
+                    </p>
 
-                <label for="campo3">Campo 3:</label>
-                <input type="text" id="campo3" name="campo3" required><br>
+                    <p>
+                        <label>Primeiro nome: <input name="primeironome" /></label>
+                    </p>
 
-                <label for="campo4">Campo 4:</label>
-                <input type="text" id="campo4" name="campo4" required><br>
+                    <p>
+                        <label>Sobrenome: <input name="sobrenome" /></label>
+                    </p>
 
-                <label for="campo5">Campo 5:</label>
-                <input type="text" id="campo5" name="campo5" required><br>
+                    <p>
+                        Genero :
+                        <label><input type="radio" name="genero" value="masculino" />
+                            Masculino
+                        </label>
+                        <label><input type="radio" name="genero" value="feminino" />
+                            Feminimo
+                        </label>
+                        <label><input type="radio" name="genero" value="nespecificado" />
+                            Não especificado
+                        </label>
+                    </p>
 
-                <label for="campo6">Campo 6:</label>
-                <input type="text" id="campo6" name="campo6" required><br>
+                    <p>
+                        <label>Email:<input type="email" name="email" />
+                        </label>
+                    </p>
 
-                <label for="campo7">Campo 7:</label>
-                <input type="text" id="campo7" name="campo7" required><br>
+                    <p>
+                        <label>Data de nascimento:<input type="date" name="datanascimento">
+                        </label>
+                    </p>
 
-                <label for="campo8">Campo 8:</label>
-                <input type="text" id="campo8" name="campo8" required><br>
+                    <p>
+                        <label>
+                            Endereço :
+                            <br />
+                            <textarea name="address" cols="30" rows="3">
+                                  </textarea>
+                        </label>
+                    </p>
 
-                <label for="campo9">Campo 9:</label>
-                <input type="text" id="campo9" name="campo9" required><br>
+                    <p>
+                        <label>Nome da sua fazenda: <input name="nomefazenda" /></label>
+                    </p>
 
-                <label for="campo10">Campo 10:</label>
-                <input type="text" id="campo10" name="campo10" required><br>
+                    <p>
+                        <label>
+                            Quantidade trabalhadores na fazenda
+                            <br />
+                            <select name="saudação">
+                                <option>1 (somente o dono)</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5 ou mais</option>
+                            </select>
+                        </label>
+                    </p>
 
-                <input type="submit" value="Enviar">
+                    <p>
+                        <label>
+                            Fazenda possui internet estável?
+                            <br />
+                            <select name="saudação">
+                                <option>Sim</option>
+                                <option>Não</option>
+                                <option>Não sei opinar</option>
+                            </select>
+                        </label>
+                    </p>
+
+
+                    <p>
+                        <button type="submit">Enviar</button>
+                    </p>
+
+                </fieldset>
             </form>
         </section>
     </main>

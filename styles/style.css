@@ -216,22 +216,14 @@ body {
 }
 
 /* Estilos específicos para tablets */
-@media (min-width: 768px) and (max-width: 1023px) {
-    .img__inicial {
-        display: block;
-        position: absolute;
-        right: 0px;
-        bottom: 0px;
-        max-height: 300px;
-    }
-}
+@media (min-width: 768px) and (max-width: 1023px) {}
 
 
 /* Estilos específicos para desktop */
 @media (min-width: 1024px) {
     .img__inicial {
         display: block;
-        position: absolute;
+        position: fixed;
         right: 0px;
         bottom: 0px;
         max-height: 600px;
@@ -247,7 +239,7 @@ body {
     }
 
     .box__conteudo {
-        border: 1px solid var(--cor-secundaria) opacity:0.3;
+        border: 1px solid var(--cor-secundaria) opacity 0.3;
         ;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     }
