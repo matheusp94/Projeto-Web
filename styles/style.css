@@ -22,11 +22,21 @@ body {
     color: var(--cor-secundaria);
 }
 
-.img__center {
+.img__logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 75%;
+}
+
+.img__center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 .cabecalho {
@@ -85,7 +95,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    max-width: 615px;
+    min-width: 390px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -94,21 +104,27 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 24px;
     font-family: var(--fonte-primaria);
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    text-align: center;
+    padding: 0% 5% 0% 5%;
 }
 
-.titulo-destaque {
+.titulo__destaque {
     color: var(--cor-terciaria);
 }
 
-.apresentacao__conteudo__texto {
+.apresentacao__conteudo__subtitulo {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 16px;
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+    padding: 0% 5% 0% 5%;
 }
 
 
@@ -212,4 +228,5 @@ body {
     font-size: 12px;
     font-weight: 400;
     bottom: 0;
+    min-height: 100%;
 }
