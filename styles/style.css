@@ -49,6 +49,13 @@ body {
 
 }
 
+.img__linkedin {
+    max-width: 32px;
+    max-height: 32px;
+    width: auto;
+    height: auto;
+}
+
 /* construtor cabeçalho */
 .cabecalho {
     padding: 0%;
@@ -254,11 +261,4 @@ body {
         font-size: 16px;
     }
 
-}
-
-.linkedin {
-    max-width: 32px;
-    max-height: 32px;
-    width: auto;
-    height: auto;
 }
